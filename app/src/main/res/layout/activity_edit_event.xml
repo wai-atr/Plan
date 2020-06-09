@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_events">
+
+    <Button
+        android:id="@+id/back_button_edit"
+        android:layout_width="15dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginTop="15dp"
+        android:background="@drawable/back_button"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10_edit"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="0dp"
+        android:textSize="22sp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView1_edit"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        android:layout_below="@+id/back_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/picture4" />
+
+    <ImageView
+        android:id="@+id/imageView_edit"
+        android:layout_width="500dp"
+        android:layout_height="501dp"
+        android:layout_marginTop="220dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/create_rectangle" />
+
+    <TextView
+        android:id="@+id/starttime_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView4_edit"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="15sp"
+        android:textColor="#959090"
+
+        android:text="2020年7月9日 07:00" />
+    <TextView
+        android:id="@+id/endtime_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView5_edit"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="15sp"
+        android:textColor="#959090"
+
+        android:text="2020年7月9日 08:50" />
+    <TextView
+        android:id="@+id/repeat_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView6_edit"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:textSize="15sp"
+        android:textColor="#959090"
+        />
+    <TextView
+        android:id="@+id/checkin_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView8_edit"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:textSize="15sp"
+        android:textColor="#959090"
+
+        android:text="" />
+    <TextView
+        android:id="@+id/remind_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView7_edit"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:textSize="15sp"
+        android:textColor="#959090"
+
+        android:text="响铃" />
+
+    <ImageButton
+        android:id="@+id/forward_button1_edit"
+
+        android:layout_width="354dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="329dp"
+        android:background="#00FF"
+        android:paddingLeft="320dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView_edit"
+        app:srcCompat="@drawable/create_event_forwardbutton" />
+
+    <ImageButton
+        android:id="@+id/forward_button2_edit"
+
+        android:layout_width="354dp"
+        android:layout_height="66dp"
+        android:layout_alignTop="@id/forward_button1_edit"
+        android:layout_marginTop="69dp"
+        android:background="#00FF"
+        android:paddingLeft="320dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView_edit"
+        app:srcCompat="@drawable/create_event_forwardbutton" />
+
+    <ImageButton
+        android:id="@+id/forward_button3_edit"
+
+        android:layout_width="354dp"
+        android:layout_height="66dp"
+        android:layout_alignTop="@id/forward_button2_edit"
+        android:layout_marginTop="69dp"
+        android:background="#00FF"
+        android:paddingLeft="320dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView_edit"
+        app:srcCompat="@drawable/create_event_forwardbutton" />
+
+    <ImageButton
+        android:id="@+id/forward_button4_edit"
+
+        android:layout_width="354dp"
+        android:layout_height="66dp"
+        android:layout_alignTop="@id/forward_button3_edit"
+        android:layout_marginTop="69dp"
+        android:background="#00FF"
+        android:paddingLeft="319dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView_edit"
+        app:srcCompat="@drawable/create_event_forwardbutton" />
+
+    <ImageButton
+        android:id="@+id/forward_button5_edit"
+
+        android:layout_width="354dp"
+        android:layout_height="66dp"
+        android:layout_alignTop="@id/forward_button4_edit"
+        android:layout_marginTop="69dp"
+        android:background="#00FF"
+        android:paddingLeft="320dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/create_event_forwardbutton" />
+
+    <EditText
+        android:id="@+id/editText_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView_edit"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/create_event_titlebackground"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="请输入事件标题"
+        android:textColor="#C4C4C4" />
+
+    <Button
+        android:id="@+id/surebutton_edit"
+        android:layout_width="210dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/imageView_edit"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-80dp"
+        android:scaleType="centerCrop"
+        android:text="确定"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/edit_event_surebutton"/>
+    <Button
+        android:id="@+id/delete_button_edit"
+        android:layout_width="210dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/imageView_edit"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="-80dp"
+        android:scaleType="centerCrop"
+        android:text="删除"
+        android:textSize="20sp"
+        android:textColor="@color/textcolordark"
+        android:background="@drawable/edit_event_deletebutton"/>
+    <TextView
+        android:id="@+id/textView4_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView_edit"
+        android:layout_marginTop="61dp"
+        android:layout_marginLeft="49dp"
+        android:textSize="18sp"
+
+        android:text="标题" />
+    <TextView
+        android:id="@+id/textView5_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView4_edit"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="49dp"
+        android:textSize="18sp"
+
+        android:text="开始时间" />
+    <TextView
+        android:id="@+id/textView6_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView5_edit"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="49dp"
+        android:textSize="18sp"
+
+        android:text="结束时间" />
+    <TextView
+        android:id="@+id/textView7_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView6_edit"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="49dp"
+        android:textSize="18sp"
+
+        android:text="重复" />
+    <TextView
+        android:id="@+id/textView8_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView7_edit"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="49dp"
+        android:textSize="18sp"
+
+        android:text="提醒方式" />
+    <TextView
+        android:id="@+id/textView9_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView8_edit"
+        android:layout_marginTop="69dp"
+        android:layout_marginLeft="49dp"
+        android:textSize="18sp"
+
+        android:text="打卡记录" />
+
+    <TextView
+        android:id="@+id/textView12_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/back_button_edit"
+        android:layout_alignLeft="@id/back_button_edit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="-4dp"
+        android:text="编辑事件"
+        android:textColor="#4F4F4F"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

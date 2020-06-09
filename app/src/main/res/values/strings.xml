@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">计划</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="text1">点击添加记录</string>
+    <string name="n1">07:00\n    </string>
+
+</resources>

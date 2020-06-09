@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="计划"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".allEvent"></activity>
+        <activity android:name=".repeat_edit" />
+        <activity android:name=".datepicker_edit" />
+        <activity android:name=".activity_edit_event" />
+        <activity android:name=".checkin" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".datepicker" />
+        <activity android:name=".create_event_repeat" />
+        <activity android:name=".create_events" />
+        <activity android:name=".EventCatalog" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

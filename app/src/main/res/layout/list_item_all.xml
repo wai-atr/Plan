@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#fff"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/date_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19"
+                android:gravity="center"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="20dp"
+                android:textSize="35dp"/>
+            <TextView
+                android:id="@+id/dateOfWeek_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5月 周二"
+                android:layout_below="@id/date_all"
+                android:layout_marginTop="-5dp"
+                android:layout_alignLeft="@id/date_all"
+                android:textSize="13dp"/>
+
+
+            <TextView
+                android:id="@+id/starttime_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/date_all"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="时间"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/endtime_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/starttime_all"
+                android:layout_alignLeft="@id/starttime_all"
+
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="时间"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView8_all"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/starttime_all"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/line" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_toRightOf="@id/imageView8_all"
+                android:layout_marginLeft="20dp"
+                android:text="事件名"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
